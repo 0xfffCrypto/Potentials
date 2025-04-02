@@ -33,7 +33,7 @@ You can run this script directly or via `curl`/`wget` for a one-line setup.
 *(Replace `YOUR_SCRIPT_URL` with the actual raw URL where the `start_rl_swarm.sh` script is hosted, e.g., a GitHub Gist raw URL)*
 
 ```bash
-curl -sSL YOUR_SCRIPT_URL | bash
+curl -sSL https://github.com/0xfffCrypto/Potentials/blob/main/start_rl_swarm.sh | bash
 ```
 
 **Method 3: One-Line Setup (using `wget`)**
@@ -41,7 +41,7 @@ curl -sSL YOUR_SCRIPT_URL | bash
 *(Replace `YOUR_SCRIPT_URL` with the actual raw URL)*
 
 ```bash
-wget -qO - YOUR_SCRIPT_URL | bash
+wget -qO -  https://github.com/0xfffCrypto/Potentials/blob/main/start_rl_swarm.sh | bash
 ```
 
 ### Non-Interactive Hugging Face Token (Optional)
@@ -106,7 +106,7 @@ Follow the on-screen prompts from the `./run_rl_swarm.sh` script after this setu
 *(将 `YOUR_SCRIPT_URL` 替换为 `start_rl_swarm.sh` 脚本所在的实际原始 URL，例如 GitHub Gist 的 raw URL)*
 
 ```bash
-curl -sSL YOUR_SCRIPT_URL | bash
+curl -sSL https://github.com/0xfffCrypto/Potentials/blob/main/start_rl_swarm.sh | bash
 ```
 
 **方法三：一键设置 (使用 `wget`)**
@@ -114,7 +114,7 @@ curl -sSL YOUR_SCRIPT_URL | bash
 *(将 `YOUR_SCRIPT_URL` 替换为实际原始 URL)*
 
 ```bash
-wget -qO - YOUR_SCRIPT_URL | bash
+wget -qO - [YOUR_SCRIPT_URL](https://github.com/0xfffCrypto/Potentials/blob/main/start_rl_swarm.sh) | bash
 ```
 
 ### 非交互式 Hugging Face Token (可选)
