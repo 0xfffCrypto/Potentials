@@ -30,18 +30,29 @@ You can run this script directly or via `curl`/`wget` for a one-line setup.
 
 **Method 2: One-Line Setup (using `curl`)**
 
-*(Replace `YOUR_SCRIPT_URL` with the actual raw URL where the `start_rl_swarm.sh` script is hosted, e.g., a GitHub Gist raw URL)*
+*Get the **Raw** URL for the `start_rl_swarm.sh` script (e.g., on GitHub, click the "Raw" button).*
+*Example Raw URL format for GitHub: `https://raw.githubusercontent.com/USERNAME/REPO/BRANCH/start_rl_swarm.sh`*
 
 ```bash
+<<<<<<< HEAD
 curl -sSL https://github.com/0xfffCrypto/Potentials/blob/main/start_rl_swarm.sh | bash
+=======
+# Replace with the actual RAW URL
+curl -sSL https://raw.githubusercontent.com/0xfffCrypto/Potentials/main/start_rl_swarm.sh | bash
+>>>>>>> abfbb60 (Replace with right url)
 ```
 
 **Method 3: One-Line Setup (using `wget`)**
 
-*(Replace `YOUR_SCRIPT_URL` with the actual raw URL)*
+*Get the **Raw** URL for the `start_rl_swarm.sh` script.*
 
 ```bash
+<<<<<<< HEAD
 wget -qO -  https://github.com/0xfffCrypto/Potentials/blob/main/start_rl_swarm.sh | bash
+=======
+# Replace with the actual RAW URL
+wget -qO - https://raw.githubusercontent.com/0xfffCrypto/Potentials/main/start_rl_swarm.sh | bash
+>>>>>>> abfbb60 (Replace with right url)
 ```
 
 ### Non-Interactive Hugging Face Token (Optional)
@@ -51,7 +62,8 @@ If you want to automatically provide your Hugging Face token (needed if you choo
 **Example with `curl`:**
 
 ```bash
-HUGGING_FACE_HUB_TOKEN='hf_YourTokenHere' curl -sSL YOUR_SCRIPT_URL | bash
+# Replace with the actual RAW URL and your token
+HUGGING_FACE_HUB_TOKEN='hf_YourTokenHere' curl -sSL https://raw.githubusercontent.com/0xfffCrypto/Potentials/main/start_rl_swarm.sh | bash
 ```
 
 **Example when running locally:**
@@ -103,18 +115,29 @@ Follow the on-screen prompts from the `./run_rl_swarm.sh` script after this setu
 
 **方法二：一键设置 (使用 `curl`)**
 
-*(将 `YOUR_SCRIPT_URL` 替换为 `start_rl_swarm.sh` 脚本所在的实际原始 URL，例如 GitHub Gist 的 raw URL)*
+*获取 `start_rl_swarm.sh` 脚本的 **Raw** (原始文件) URL (例如, 在 GitHub 上点击 "Raw" 按钮)。*
+*GitHub 的 Raw URL 格式示例: `https://raw.githubusercontent.com/USERNAME/REPO/BRANCH/start_rl_swarm.sh`*
 
 ```bash
+<<<<<<< HEAD
 curl -sSL https://github.com/0xfffCrypto/Potentials/blob/main/start_rl_swarm.sh | bash
+=======
+# 替换为实际的 RAW URL
+curl -sSL https://raw.githubusercontent.com/0xfffCrypto/Potentials/main/start_rl_swarm.sh | bash
+>>>>>>> abfbb60 (Replace with right url)
 ```
 
 **方法三：一键设置 (使用 `wget`)**
 
-*(将 `YOUR_SCRIPT_URL` 替换为实际原始 URL)*
+*获取 `start_rl_swarm.sh` 脚本的 **Raw** (原始文件) URL。*
 
 ```bash
+<<<<<<< HEAD
 wget -qO - [YOUR_SCRIPT_URL](https://github.com/0xfffCrypto/Potentials/blob/main/start_rl_swarm.sh) | bash
+=======
+# 替换为实际的 RAW URL
+wget -qO - https://raw.githubusercontent.com/0xfffCrypto/Potentials/main/start_rl_swarm.sh | bash
+>>>>>>> abfbb60 (Replace with right url)
 ```
 
 ### 非交互式 Hugging Face Token (可选)
@@ -124,7 +147,8 @@ wget -qO - [YOUR_SCRIPT_URL](https://github.com/0xfffCrypto/Potentials/blob/main
 **使用 `curl` 的示例：**
 
 ```bash
-HUGGING_FACE_HUB_TOKEN='hf_YourTokenHere' curl -sSL YOUR_SCRIPT_URL | bash
+# 替换为实际的 RAW URL 和你的 Token
+HUGGING_FACE_HUB_TOKEN='hf_YourTokenHere' curl -sSL https://raw.githubusercontent.com/0xfffCrypto/Potentials/main/start_rl_swarm.sh | bash
 ```
 
 **本地运行示例：**
