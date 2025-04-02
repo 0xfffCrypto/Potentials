@@ -34,12 +34,9 @@ You can run this script directly or via `curl`/`wget` for a one-line setup.
 *Example Raw URL format for GitHub: `https://raw.githubusercontent.com/USERNAME/REPO/BRANCH/start_rl_swarm.sh`*
 
 ```bash
-<<<<<<< HEAD
-curl -sSL https://github.com/0xfffCrypto/Potentials/blob/main/start_rl_swarm.sh | bash
-=======
-# Replace with the actual RAW URL
+
 curl -sSL https://raw.githubusercontent.com/0xfffCrypto/Potentials/main/start_rl_swarm.sh | bash
->>>>>>> abfbb60 (Replace with right url)
+
 ```
 
 **Method 3: One-Line Setup (using `wget`)**
@@ -47,12 +44,7 @@ curl -sSL https://raw.githubusercontent.com/0xfffCrypto/Potentials/main/start_rl
 *Get the **Raw** URL for the `start_rl_swarm.sh` script.*
 
 ```bash
-<<<<<<< HEAD
-wget -qO -  https://github.com/0xfffCrypto/Potentials/blob/main/start_rl_swarm.sh | bash
-=======
-# Replace with the actual RAW URL
 wget -qO - https://raw.githubusercontent.com/0xfffCrypto/Potentials/main/start_rl_swarm.sh | bash
->>>>>>> abfbb60 (Replace with right url)
 ```
 
 ### Non-Interactive Hugging Face Token (Optional)
@@ -119,12 +111,7 @@ Follow the on-screen prompts from the `./run_rl_swarm.sh` script after this setu
 *GitHub 的 Raw URL 格式示例: `https://raw.githubusercontent.com/USERNAME/REPO/BRANCH/start_rl_swarm.sh`*
 
 ```bash
-<<<<<<< HEAD
-curl -sSL https://github.com/0xfffCrypto/Potentials/blob/main/start_rl_swarm.sh | bash
-=======
-# 替换为实际的 RAW URL
 curl -sSL https://raw.githubusercontent.com/0xfffCrypto/Potentials/main/start_rl_swarm.sh | bash
->>>>>>> abfbb60 (Replace with right url)
 ```
 
 **方法三：一键设置 (使用 `wget`)**
@@ -132,12 +119,7 @@ curl -sSL https://raw.githubusercontent.com/0xfffCrypto/Potentials/main/start_rl
 *获取 `start_rl_swarm.sh` 脚本的 **Raw** (原始文件) URL。*
 
 ```bash
-<<<<<<< HEAD
-wget -qO - [YOUR_SCRIPT_URL](https://github.com/0xfffCrypto/Potentials/blob/main/start_rl_swarm.sh) | bash
-=======
-# 替换为实际的 RAW URL
 wget -qO - https://raw.githubusercontent.com/0xfffCrypto/Potentials/main/start_rl_swarm.sh | bash
->>>>>>> abfbb60 (Replace with right url)
 ```
 
 ### 非交互式 Hugging Face Token (可选)
